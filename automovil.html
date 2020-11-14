@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script src="Validaciones/valida.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<style>
+		h1{
+			color: white;
+			text-align: center;
+			font-size:35px ;
+			font-family: unispace;
+		}
+	</style>
+
+</head>
+<center>
+<body>
+	<form class="campoDatos" action="controlador.php" method="post" onsubmit="return coche();">
+
+		<h1> VEHICLE </h1>
+				<i class="fas fa-id-card icon"></i>
+				<input type="text" name="txtplaca" id="txtplaca" placeholder="Plate Number" >
+				<i class="fas fa-car icon"></i>
+				<input type="text" name="txtmodelo" id="txtmodelo" placeholder="Car Model">
+			
+
+			<input type="submit" id="btnCar" name="btnCar" value="Register">
+
+			<h3>By registering, you accept our Terms of Use and Privacy Policy.</h3>
+			<h2><a class="link" href="menu.html"><br> Exit </a></h2>
+		
+	</form>
+
+</body>
+</center>
+</html>

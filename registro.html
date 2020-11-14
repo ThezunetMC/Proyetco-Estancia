@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script src="Validaciones/valida.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<style>
+		h1{
+			color: white;
+			text-align: center;
+			font-size:35px ;
+			font-family: unispace;
+		}
+	</style>
+
+</head>
+<center>
+<body>
+	<form class="campoDatos" action="controlador.php" method="post" onsubmit="return vacios();">
+
+		<h1> Registrate </h1>
+				<i class="fas fa-user icon"></i>
+				<input type="text" name="txtnomb" id="txtnomb" placeholder="Name" >
+				<i class="fas fa-key icon"></i>
+				<input type="Password" name="txtcontra" id="txtcontra" placeholder="Password">
+			
+
+			<input type="submit" id="btnRegistro" name="btnRegistro" value="Register">
+
+			<h3>By registering, you accept our Terms of Use and Privacy Policy.</h3>
+			<h2>Do you already have an account? <a class="link" href="login.html"><br> Login </a></h2>
+		
+	</form>
+
+</body>
+</center>
+</html>

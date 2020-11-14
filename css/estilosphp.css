@@ -1,0 +1,84 @@
+body{
+	font-family: monospace;
+	background-image: url("../img/fondo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  
+}
+
+form {
+  width:500px;
+  height: auto;
+  margin: 60px auto 0;
+  position: relative;
+  background: rgba(0,0,0,0.4);
+  text-align: none;
+  padding: 35px;
+  border: 3px solid #fff;
+  -webkit-border-radius: 70px 0 70px 0;
+  -moz-border-radius: 70px 0 70px 0;
+  border-radius:70px 0 70px 0;
+}
+
+.campoDatos input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.campoDatos input[type = "text"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.camposDatos{
+  border:solid 1px cyan;
+  padding: 10px;
+  width: 280px;
+}
+.camposDatos:focus{
+  border-color:crimson;
+}
+
+.centrarContenido{
+  text-align: center;
+}
+
+.campoDatos input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.campoDatos input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
